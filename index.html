@@ -1,20 +1,29 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  
-  <!-- TITOLO -->
-  <title>HACCP Pro</title>
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- TITOLO (L'ho cambiato così capiamo se si è aggiornato!) -->
+    <title>HACCP Ristorante V2</title>
 
-  <!-- ICONE -->
-  <link rel="icon" type="image/png" href="/logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
-  <link rel="apple-touch-icon" href="/logo.png" />
+    <!-- MANIFESTO -->
+    <link rel="manifest" href="/manifest.json" />
 
-  <!-- STILE APP NATIVA -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="theme-color" content="#2563eb">
-  
-  <!-- TAILWIND -->
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <!-- ICONE (Link diretto a internet, NO file locali) -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/11516/11516035.png" />
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/11516/11516035.png" />
+
+    <!-- STILE APP NATIVA -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

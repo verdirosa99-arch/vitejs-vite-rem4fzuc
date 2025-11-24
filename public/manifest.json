@@ -1,0 +1,15 @@
+{
+    "name": "HACCP Pro",
+    "short_name": "HACCP",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "icons": [
+      {
+        "src": "https://cdn-icons-png.flaticon.com/512/11516/11516035.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
